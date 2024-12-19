@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     console.log('Hello World');
-    res.send('Hello World');
+    res.send('<h1>API IS UP!</h1>');
 });
 
 app.listen(3000);
